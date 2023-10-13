@@ -1,0 +1,234 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bellota Text';
+}
+#nav_container{
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #f8f4dd86;
+}
+
+#container{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+#logo {
+    padding: 5px;
+    margin-left: 5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+#logo_name {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Bellota Text';
+}
+#content_1_container{
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+#content_1_picture{
+    width: 600px;
+    height: 250px;
+    background-color: #f8f4dd;
+    margin-top: 100px ;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+#content_1_description{
+    padding-left: 190px;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    width: 800px;
+    background-color: #dce2f044;
+    font-family: 'Bellota Text';
+    font-size: 20px;
+    position: relative;
+   
+}
+.prof_pic{
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+/* content 2 */
+
+#content_2_container{
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+#content_2_picture {
+    width: 600px;
+    height: 250px;
+    background-color: #f8f4dd;
+    margin-top: 100px ;
+    position: relative;
+    top: 100px;
+    right: 150px;
+    padding-top: 20px;
+    
+}
+#content_2_description{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-right: 190px;
+    padding-left: 30px;
+    width: 800px;
+    background-color: #dce2f044;
+    font-family: 'Bellota Text';
+    font-size: 20px;
+    position: relative;
+    z-index: 999;
+   
+}
+.dlsl_logo {
+    width: 180px;
+    height: 195px;
+    margin-left:160px;
+    margin-top: 0 ;
+    margin-bottom: 20px;
+}
+
+.kodego_logo {
+    width: 180px;
+    height: 180px;
+    margin-left:30px;
+    margin-top: 0 ;
+    margin-bottom: 20px;
+}
+
+
+/* contact form */
+#content_3_container{
+    margin: auto;
+    justify-content: center;
+    background-color: #f8f4dd;
+    
+}
+
+#text_area{
+    max-height: 100px;
+    min-height: 100px;
+}
+
+
+.abc{
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.logo_ig {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.logo_fb {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.logo_git{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+}
+
+.logo_linked{
+    width: 115px;
+    height: 90px;
+    margin: 5px;
+}
+
+
+#form{
+    background-color: #dce2f044 !important;
+
+}
+.btnpts {
+    display: flex;
+    justify-content: baseline;
+}
+
+/* works */
+.tile{
+    background-color: #f8f4dd;
+    text-align: center;
+    justify-content: center;
+}
+#works_container{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.picture_works {
+    width: 420px ;
+    height: 350px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #373b4448;
+}
+/* buttons */
+.nav_buttons {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.nav_buttons:hover,
+.nav_buttons:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+  
+.nav_buttons:active {
+    background: var(--color);
+    color: #fff;
+}
